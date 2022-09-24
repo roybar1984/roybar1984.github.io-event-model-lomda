@@ -1,0 +1,19 @@
+.plus-border {
+  fill: none;
+  stroke-miterlimit: 10;
+  stroke-width: 1.3px;
+  stroke: url(#linear-gradient);
+}
+.inner-plus {
+  fill: url(#linear-gradient-2);
+}
+
+.plusBtn {
+  width: 6vw;
+  height: 6vh;
+  margin-bottom: 1em;
+}
+
+.make-plus-disapear {
+  opacity: 1;
+}

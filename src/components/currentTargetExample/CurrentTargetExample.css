@@ -1,0 +1,55 @@
+.current-target-container {
+  width: 42vw;
+  height: 62vh;
+  transform-style: preserve-3d;
+  background: linear-gradient(
+    49deg,
+    rgba(245, 248, 249, 0.261) 0%,
+    rgba(255, 255, 255, 0.127) 64%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  color: white;
+  z-index: 2;
+  border-radius: 1.8em;
+  padding: 29px;
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  box-shadow: inset 4px 0px 19px 9px rgb(109 109 109 / 16%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.black-console-current-target {
+  background: black;
+  width: 43vw;
+  height: fit-content;
+  color: white;
+  direction: ltr;
+  text-align: left;
+}
+
+.current-target-buttons-container {
+  display: flex;
+  width: 40vw;
+  justify-content: space-between;
+  margin: 1vh;
+}
+
+.current-target-console-text {
+  margin: 1vh;
+  font-size: 1.2vw;
+  font-weight: 600;
+  font-family: IBMPlexMono, "Segoe UI";
+}
+
+.current-target-instruction {
+  font-size: 2vh;
+  line-height: 4vh;
+}
+
+.console-type{
+  margin: 1vh;
+  font-size: 14px;
+}

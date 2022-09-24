@@ -1,0 +1,54 @@
+.console {
+  background-color: black;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  overflow-x: hidden;
+}
+
+.console-hr {
+  background-color: white;
+  width: 100vw;
+}
+
+.console-text {
+  margin: 0vh;
+  margin-left: 0.5vw;
+  font-size: 2vh;
+  font-weight: 600;
+  font-family:IBMPlexMono , monospace, "Segoe UI";
+}
+
+.move-counter {
+  width: 1.8vw;
+  height: 1.8vw;
+  display: flex;
+  align-items: center;
+  border-radius: 5em;
+  justify-content: center;
+  color: black;
+  font-size: 1vw;
+  padding: 0.15vw;
+  background-color: rgb(177, 174, 174);
+}
+
+.move-div {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-left: 0.5vw;
+}
+
+.mouseout-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 29vw;
+  align-items: flex-end;
+}
+
+.up-and-click-div{
+  display: flex;
+  flex-direction: row-reverse;
+}

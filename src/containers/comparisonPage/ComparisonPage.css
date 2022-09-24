@@ -1,0 +1,24 @@
+.comparison-parts-container {
+  display: flex;
+  width: 80vw;
+  justify-content: space-between;
+  position: absolute;
+  top: 50vh;
+  right: 50vw;
+  transform: translate(50%,-50%);
+}
+
+.subtitle-funtion-type {
+  font-size: 2vw;
+  font-weight: 500;
+  text-align: start;
+  margin: none;
+}
+
+.comparison-title {
+  /* width: 45vw; */
+  position: absolute;
+  top: 3vh;
+  right: 6vw;
+  text-align: start;
+}

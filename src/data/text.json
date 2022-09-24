@@ -1,0 +1,186 @@
+[
+    {
+        "index": 0,
+        "title": "ברוכים הבאים ללומדת <br><span class='colored-text'>מודל האירועים</span>",
+        "text": ""
+    },
+    {
+        "index": 1,
+        "title": "",
+        "text": "אחלה, אבל מה הנקודה?"
+    },
+    {
+        "index": 2,
+        "title": "",
+        "text": [
+            " כל פעם שאתם לוחצים על כפתור, גוללים עם העכבר, מרעננים את העמוד בו אתם נמצאים או מקלידים תוכן- מתרחשים דברים מגניבים על המסך, <br> בדיוק כמו מה שראיתם עכשיו! <br> כל הדברים האלה קורים בזכות  <span class='colored-text'> \"אירועים\"</span>.<br>",
+            "<span class='colored-text delay-text2'>אירוע הוא בעצם כל סוג אינטרקציה שמתרחשת עם האתר.</span><br><span class='delay-text2'> בעזרת אירועים נוכל להפוך את האתר שלנו להרבה יותר אינטרקטיבי ומעניין.</span",
+            "<span class='delay-text3'>אחרי שהבנו מהו אירוע, בואו נתעמק בסוגי האירועים השונים.</span>"
+        ]
+    },
+    {
+        "index": 3,
+        "title": "סוגי אירועים",
+        "text": "קיימים סוגים רבים של אירועים. <br> בלומדה שלנו נתמקד בשלושה סוגים מרכזיים: <br><br><span class='colored-text'>אירועי עכבר<span class='colored-text'>, input וטעינה.</span>"
+    },
+    {
+        "index": 4,
+        "title": "אירועי עכבר",
+        "text": [
+            "<span class='colored-text'>אירוע עכבר</span> - אירוע שקורה בכל פעם שאנחנו משתמשים בעכבר המחשב. <br> נתמקד בשישה מהאירועים המרכזיים והשימושיים ביותר: <br>",
+            "<span class='colored-text'>mousemove </span>(תזוזת עכבר מעל)​ <br>",
+            "<span class='colored-text'>mousedown </span>(לחיצה)​ <br>",
+            "<span class='colored-text'>mouseout </span>(יציאת עכבר)​ <br>",
+            "<span class='colored-text'>mouseup </span>(שחרור)​ <br>",
+            "<span class='colored-text'>click </span>(לחיצה ושחרור)​ <br>",
+            "<span class='colored-text'>mouseover </span>(עכבר מעל)​ <br>"
+        ]
+    },
+    {
+        "index": 5,
+        "title": "אירועי עכבר",
+        "text": "<span class='colored-text mousedown-color'> mousedown </span>(לחיצה) - מתרחש כאשר המשתמש <br> לוחץ על העכבר.<br><br><span class='colored-text mouseup-color'>mouseup </span>(שחרור) - מתרחש כאשר המשתמש <br>משחרר את כפתור העכבר. <br><br><span class='colored-text click-color'>click </span>(לחיצה ושחרור) - מתרחש בכל פעם <br>שכפתור העכבר נלחץ ומשתחרר. <br> כלומר, מורכב מאירועי MouseDown ו-MouseUp יחד. "
+    },
+    {
+        "index": 6,
+        "title": "אירועי עכבר",
+        "text": "<span class='colored-text mousedown-color'> mouseover </span>(עכבר מעל) - מתרחש כאשר העכבר <br> נכנס לתוך גבולות האלמנט.  <br><br><span class='colored-text mouseup-color'> mousemove </span>(תזוזת עכבר מעל) - מתרחש בכל פעם <br>שהעכבר זז בתוך גבולות האלמנט.<br><br><span class='colored-text click-color'> mouseout </span>(יציאת עכבר) - מתרחש כאשר העכבר<br>יוצא מגבולות האלמנט."
+    },
+    {
+        "index": 7,
+        "title": "אירועי input",
+        "text": "אירוע מסוג זה מתרחש בכל פעם שהמשתמש <br> משנה את הקלט. <br><br> אירועים אלו מתרחשים בהקלדה בתיבות טקסט, <br> בסימון כפתורי רדיו, כפתורי checkbox, ועוד."
+    },
+    {
+        "index": 8,
+        "title": "אירוע טעינה - load",
+        "text": "אירוע הטעינה \"load\" מתרחש כאשר <span class='colored-text'> האתר נטען במלואו </span> (כולל תמונות, כפתורים, קבצים...).<br><span class='bold-text'> שימו </span><span class='heart'> </span>: כל עוד האלמנטים ב- HTML לא נטענו, <span class='colored-text'> לא נוכל לגשת אליהם </span>כי המחשב עדיין לא זיהה אותם."
+    },
+    {
+        "index": 9,
+        "title": "מאזיני אירועים – מהם?",
+        "text": [
+            "כמו שראינו, על האלמנטים מתרחשים סוגים שונים של אירועים.<br>  אבל איך בעצם נדע שהאירוע המסויים התרחש ואיך נגרום לפעולות להתבצע בעקבותיו? <br><br> נעשה זאת על ידי הוספת <span class='colored-text'> מאזין לאירוע</span>. <br>",
+            "<span class ='delay-text2'>המאזין מחכה שהאירוע המסוים יתבצע, וכתגובה הוא יקרא לפונקציה המתאימה. <br><br> <span class='colored-text'>חשוב להבין</span> שהאירועים מתרחשים באתר גם ללא הצמדת המאזין, <br> אך בלעדיו לא יתבצעו פעולות כתגובה להתרחשות האירוע.</span>"
+        ]
+    },
+    {
+        "index": 10,
+        "title": "איך נצמיד מאזין?",
+        "text": "קודם כל, עלינו לציין לאיזה <span class='listener-colored-text-pink'>אלמנט </span>נרצה להצמיד את המאזין. <br> לאחר מכן, נשתמש בפקודה: <span class='listener-colored-text-green'>\"addEventListener\"</span>. <br><br> פעולה זו מקבלת שני פרמטרים: <span class='listener-colored-text-blue'>סוג האירוע </span> <span class='listener-colored-text-purple'> והפונקציה </span> שתיקרא בעקבות האירוע.<br><br><span class='bold-text'> שימו </span><span class='heart'> </span>: <br>אפשר להצמיד לאלמנט אחד כמה מאזינים. <br>המאזינים יכולים לקרוא לאותה הפונקציה או לפונקציות שונות.<br>את שם הפונקציה נכתוב ללא סוגריים אחריה.",
+        "codeText":"<span class='listener-colored-text-pink'>element</span>.<span class='listener-colored-text-green'>addEventListener</span>(\"<span class='listener-colored-text-blue '>EventKind</span>\", <span class='listener-colored-text-purple'>functionName</span>);"
+    },
+    {
+        "index": 11,
+        "title": "דוגמה להצמדת מאזין",
+        "text": "",
+        "codeText":[
+            "<span class='listener-colored-text-pink'>element</span>.<span class='listener-colored-text-green'>addEventListener</span>(\"<span class='listener-colored-text-blue '>EventKind</span>\", <span class='listener-colored-text-purple'>functionName</span>)",
+            "<div class = 'container-for-white-spaces'><p class='code-p'><span  class='after-body1'></span></p><p class='code-p'>    <span class='listener-colored-text-pink after-btn-tag'> id </span>= \"<span class='listener-colored-text-blue '>click-me-btn</span>\" <span class='listener-colored-text-yellow'>></span> לחצו עלי <span class='before-close-button-tag'></span></p><p class='code-p'>    <span class='listener-colored-text-pink after-btn-tag'> id </span>= \"<span class='listener-colored-text-blue '>refresh-btn</span>\"<span class='listener-colored-text-yellow'> ></span><span class='before-close-button-tag'></span> </p><p class='code-p'><span  class='after-body2'></span></p></div>",
+            "<div class = 'container-for-white-spaces '><p class='code-p'><span class='listener-colored-text-pink'>window</span>.<span class='listener-colored-text-green'>addEventListener</span>(\"<span class='listener-colored-text-blue '>load</span>\", function(<span class='listener-colored-text-event'>event</span>) {</p><p class='code-p'><span class='listener-colored-text-pink'>    elBtn</span> = <span class='listener-colored-text-pink'>document</span>.<span class='listener-colored-text-green'>getElementById</span>(\"<span class='listener-colored-text-blue '>click-me-btn</span>\");</p><p class='code-p'><span class='add-event-listener-line'> <span class='listener-colored-text-pink'>   elBtn</span>.<span class='listener-colored-text-green'>addEventListener</span>(\"<span class='listener-colored-text-blue '>click</span>\", <span class='listener-colored-text-purple'>changeColor</span>);</span></p><p class='code-p'><span class='description-to-add-listener'>    // the code of adding event listener will be added here</p><p class='code-p'></span>});</p><p class='code-p'></p><p class='code-p'>function <span class='listener-colored-text-purple'>changeColor</span>(<span class='listener-colored-text-event'>event</span>) {</p><p class='code-p'><span class='listener-colored-text-pink'>    elBtn</span><span class='listener-colored-text-pink'>style</span>.<span class='listener-colored-text-pink'>backgroundColor</span> = <span class='listener-colored-text-purple'>randomColor</span>();</p><p class='code-p'>}</p></div></div>"
+        
+        ]    
+},
+    {
+        "index": 12,
+        "title": "איך נסיר מאזין?",
+        "text": [
+            "אחרי שלמדנו איך מצמידים מאזין לאוביקטים, חשוב שנדע איך להסיר אותם. <br> ברגע שנסיר את המאזין, לא תהיה לנו האזנה לאירוע, ולכן הפונקציה שמטפלת באירוע לא תופעל. <br> כדי להסיר מאזין נשתמש בפקודה: ",
+            "נשתמש בפקודה זו במקרים בהם <span class='colored-text'> אין יותר צורך במאזין</span> - <br>למשל כשהאלמנט הוסר מהמסך או כשנרצה שהפעולה תקרה כמות מוגבלת של פעמים. <br><br> הפקודה מקבלת את אותם הפרמטרים כמו פקודת הצמדת המאזין (שם האירוע ושם הפונקציה).<br><br><span class='bold-text'>שימו </span><span class='heart'> </span>: חשוב להסיר את המאזין כאשר אין בו צורך כדי למנוע שגיאות והתנהגות לא צפויה."
+        ],
+        "codeText":"<span class='listener-colored-text-pink'>element</span>.<span class='listener-colored-text-green'>removeEventListener</span>(\"<span class='listener-colored-text-blue '>EventKind</span>\", <span class='listener-colored-text-purple'>functionName</span>);"
+    },
+    {
+        "index": 13,
+        "title": "דוגמה להסרת מאזין",
+        "text": "",
+        "codeText":[
+            "<span class='listener-colored-text-pink'>element</span>.<span class='listener-colored-text-green'>removeEventListener</span>(\"<span class='listener-colored-text-blue '>EventKind</span>\", <span class='listener-colored-text-purple'>functionName</span>)",
+            "<div class = 'container-for-white-spaces small-space-between-lines'><p class='code-p'><span class='after-body1'></span></p><p class='code-p'>    <span class='listener-colored-text-pink after-btn-tag'> id </span>= \"<span class='listener-colored-text-blue '>click-me-btn</span>\"<span class='listener-colored-text-yellow'> ></span> לחצו עלי <span class='before-close-button-tag'></span></p><p class='code-p'>    <span class='listener-colored-text-pink after-btn-tag'> id </span>= \"<span class='listener-colored-text-blue '>refresh-btn</span>\"<span class='listener-colored-text-yellow'> ></span><span class='before-close-button-tag'></span></p><p class='code-p'>    <span class='listener-colored-text-pink after-div-tag'>id </span>= \"<span class='listener-colored-text-blue '>display-counter</span>\"<span class='listener-colored-text-yellow'> ></span><span class='after-div-close-tag'></span></p><p class='code-p'><span  class='after-body2'></span></p></div>",
+            "<div class = 'container-for-white-spaces '><p class='code-p'>const <span class='listener-colored-text-darkblue'>NUM_OF_CLICKS</span> = 3;</p><p class='code-p'>let <span class='listener-colored-text-darkblue'>elBtn</span>;</p><p class='code-p'>let <span class='listener-colored-text-darkblue'>nNumberCounter</span> = 0;</p><p class='code-p'><span class='listener-colored-text-pink'>window</span>.<span class='listener-colored-text-green'>addEventListener</span>(\"<span class='listener-colored-text-blue '>load</span>\", function(<span class='listener-colored-text-event'>event</span>) { </p><p class='code-p'><span class='listener-colored-text-pink'>    elBtn</span> = <span class='listener-colored-text-pink'>document</span>.<span class='listener-colored-text-green'>getElementById</span>(\"<span class='listener-colored-text-blue '>click-me-btn</span>\");</p><p class='code-p'> <span class='listener-colored-text-pink'>   elBtn</span>.<span class='listener-colored-text-green'>addEventListener</span>(\"<span class='listener-colored-text-blue '>click</span>\", <span class='listener-colored-text-purple'>countUp</span>);</p><p class='code-p'>});</p><p class='code-p'>function <span class='listener-colored-text-purple'>countUp</span>(<span class='listener-colored-text-event'>event</span>) {</p><p class='code-p'><span class='listener-colored-text-darkblue'>    nNumberCounter</span>++;</p><p class='code-p'><span class='listener-colored-text-pink'>    document</span>.<span class='listener-colored-text-green'>getElementById</span>(\"<span class='listener-colored-text-blue '>show-num</span>\").<span class='listener-colored-text-pink'>innerHTML</span> = <span class='listener-colored-text-darkblue'>nNumberCounter</span>;</p><p class='code-p'><span class='listener-colored-text-redpink'>    if</span>(<span class='listener-colored-text-darkblue'>nNumberCounter</span> === <span class='listener-colored-text-darkblue'>NUM_OF_CLICKS</span>) {</p><p class='code-p'><span class='listener-colored-text-pink'>       document</span>.<span class='listener-colored-text-green'>getElementById</span>(\"<span class='listener-colored-text-blue '>button</span>\").<span class='listener-colored-text-green'>removeEventListener</span>(\"<span class='listener-colored-text-blue '>click</span>\", <span class='listener-colored-text-purple'>countUp</span>);</p><p class='code-p'>    }</p><p class='code-p'>}</p></div>"  
+        ]
+    },
+    {
+        "index": 14,
+        "title": "פונקציות",
+        "text": [
+            "אחרי שלמדנו על הצמדת מאזין, הגיע הזמן ללמוד על הפונקציות הנקראות ממנו.<br> ראינו שהפקודה AddEventListener מקבלת בפרמטר השני שלה את הפונקציה לה נרצה לקרוא.",
+            "פונקציות אלו מקבלות את האובייקט <span class='listener-colored-text-event'>event</span> כפרמטר, עליו נלמד בהמשך."
+        ],
+        "codeText":["<span class='listener-colored-text-pink'>element</span>.<span class='listener-colored-text-green'>addEventListener</span>(\"<span class='listener-colored-text-blue '>EventKind</span>\", <span class='listener-colored-text-purple'>functionName</span>);",
+            "<div class = 'container-for-white-spaces'>Function <span class='listener-colored-text-purple'>functionName</span>(<span class='listener-colored-text-event'>event</span>) {​<br>     <span class='description-to-add-listener'>//the code </span> <br> }</div>"
+        ]
+
+    },
+    {
+        "index": 15,
+        "title": " פונקציות אנונימיות",
+        "text": [
+            " דרך נוספת לקריאה לפעולה בעקבות אירוע היא באמצעות פונקציה אנונימית.  <br> פונקציה מסוג זה נכתבת <span class='colored-text'> ישירות בתוך המאזין </span> כפרמטר.",
+            "לפונקציות אלה ניתן לקרוא <span class='colored-text'> רק פעם אחת </span>, לעומת פונקציות בעלות שם, אשר אפשר לקרוא להן מספר פעמים בקוד. <br>  לכן, <span class='colored-text'> נשתמש בפונקציות אנונימיות </span> כאשר מדובר בקטע קוד שאנחנו בטוחים שלא יהיה בו שימוש במקום נוסף."
+        ],
+        "codeText":"<div class = 'container-for-white-spaces'><span class='listener-colored-text-pink'>element</span>.<span class='listener-colored-text-green'>addEventListener</span>(\"<span class='listener-colored-text-blue'>Eventkind</span>\", <span class='listener-colored-text-purple'>function</span>(<span class='listener-colored-text-event'>event</span>) {<br>      <span class ='description-to-add-listener'>//code</span> <br><div class='end-of-function-align'>});</div></div>"
+    },
+    {
+        "index": 16,
+        "title": " פונקציות אנונימיות",
+        "text": [
+            "<span class='colored-text'>דוגמה לפונקציה אנונימית </span> היא פונקציית הטעינה אותה הזכרנו קודם. <br> במקרה זה מדובר בפונקציה אנונימית הנקראת בעקבות אירוע <span class='listener-colored-text-blue'>load</span> המוצמד ל-window, והיא מתרחשת רק פעם אחת בקוד.",
+            "<span class='bold-text'>שימו </span><span class='heart'> </span>!<br>  מאחר ופונקציות אנונימיות עלולות לשבש את קריאות הקוד שלנו, הן יכילו לא יותר <span class='colored-text'> מכמה פקודות קצרות </span>ופשוטות. <br> לכן נשתדל <span class='colored-text'>לא להעמיס </span>על פונקציית הטעינה שלנו. "
+        ],
+        "codeText":"window.<span class='listener-colored-text-green'> addEventListener</span>(<span class='listener-colored-text-blue'>\"load\"</span> , <span class='listener-colored-text-purple'>function</span>(<span class='listener-colored-text-event'>event</span>){});"
+    },
+    {
+        "index": 17,
+        "title": "arguments callee",
+        "text": "arguments.callee  היא פקודה המחזירה את הפונקציה המתבצעת, מתוך הפונקציה עצמה. <br> מתי נשתמש בפקודה זו? <br><br> כפי שלמדנו,  כדי להסיר מאזין מאירוע נשתמש בפקודה: \"<span class='listener-colored-text-green'>removeEventListener</span>\", <br> נציין את <span class='listener-colored-text-blue'>סוג האירוע</span> ואת <span class='listener-colored-text-purple'>שם הפונקציה</span> אותה נרצה להסיר.",
+        "codeText":"<span class='listener-colored-text-pink'>element</span>.<span class='listener-colored-text-green'>removeEventListener</span>(\"<span class='listener-colored-text-blue '>EventKind</span>\", <span class='listener-colored-text-purple'>functionName</span>);"
+    },
+    {
+        "index": 18,
+        "title": "arguments callee",
+        "text": "לפונקציה אנונימית אין שם, לכן במקום שם הפונקציה נרשום <span class='arguments-callee-color'>arguments.callee</span>.<br><span class='arguments-callee-color'> arguments.callee </span>מייצגת את הפונקציה האנונימית שלנו. <br>לא ניתן להסיר מאזין מפונקציה אנונימית מתוך פונקציה אחרת, אלא <span class='colored-text'> רק בתוך הפונקציה האנונימית </span> עצמה.",
+        "codeText":"<span class='listener-colored-text-pink'>element</span>.<span class='listener-colored-text-green'>removeEventListener</span>(\"<span class='listener-colored-text-blue '>EventKind</span>\", <span class='arguments-callee-color'>arguments.callee</span>);"
+    },
+    {
+        "index": 19,
+        "title": "הבדלים בין סוגי הפונקציות",
+        "text": [
+            {
+                "subtitle": "פונקציה אנונימית",
+                "points": [
+                    " חסרת שם",
+                    "נכתבת בהצמדת המאזין",
+                    "ניתן לקשר אליה רק מאזין אחד",
+                    "לא ניתן להסיר מאזין מחוץ לפונקציה",
+                    "תכיל מספר פקודות קצרות ופשוטות"
+                ]
+            },
+            {
+                "subtitle": "פונקציה (בעלת שם)",
+                "points": [
+                    "נכתבת מחוץ למאזין <br>ומועברת כפרמטר באמצעות שמה",
+                    "ניתן לקשר אליה מספר מאזינים שונים",
+                    "ניתן להסיר מאזין מחוץ לפונקציה"
+                ]
+            }
+        ]
+    },
+    {
+        "index": 20,
+        "title": "event",
+        "text": "<span class='spaced-lines'>זוכרים שדיברנו על האובייקט event כשדיברנו על הפונקציות? עכשיו נכיר אותו יותר לעומק: <br> event  הוא אובייקט המועבר לפונקציה <span class='colored-text'> כפרמטר בעת התרחשות האירוע </span>, ומכיל מידע שקשור באירוע. <br><br> <span class='colored-text'> כסטנדרט</span> נשתמש בשם event, אך נוכל לתת לו כל שם שנרצה.<br><br>ל-event מאפיינים רבים, נתמקד באחד מהם.</span>"
+    },
+    {
+        "index": 21,
+        "title": "המאפיין  currentTarget",
+        "text": "Current target הינו מאפיין המייצג את האלמנט <span class='colored-text'> אליו הצמדנו את המאזין </span>.<br><br> בעזרתו נוכל לגשת למאפיינים של האלמנט (value, id וכו') ולבצע פעולות שונות.",
+        "exampleText":"<div class='current-target-instruction'>בדוגמה שני כפתורים אליהם הצמדנו מאזין לחיצה. <br> לחצו על כל אחד מהכפתורים ושימו לב לשינוי שיודפס ב- Console.</div>",
+        "codeText":  "<div class = 'container-for-white-spaces'><p class='code-p'><span class='listener-colored-text-pink'>window</span>.<span class='listener-colored-text-green'>addEventListener</span>(\"<span class='listener-colored-text-blue '>load</span>\", function(<span class='listener-colored-text-purple'>event</span>) { </p><p class='code-p'><span class='listener-colored-text-pink'>    elBtn1</span>.<span class='listener-colored-text-green'>addEventListener</span>(\"<span class='listener-colored-text-blue '>click</span>\", <span class='listener-colored-text-purple'>buttonClick</span>);</span></p><p class='code-p'> <span class='listener-colored-text-pink'>   elBtn2</span>.<span class='listener-colored-text-green'>addEventListener</span>(\"<span class='listener-colored-text-blue '>click</span>\", <span class='listener-colored-text-purple'>buttonClick</span>);</span></p><p class='code-p'>});</p><p class='code-p'>function <span class='listener-colored-text-purple'>buttonClick</span>(<span class='listener-colored-text-purple'>event</span>) {</p><p class='code-p'><span class='listener-colored-text-pink'>    console</span>.<span class='listener-colored-text-green'>log</span>(\"event.currentTarget:\" + <span class='listener-colored-text-pink'>event</span>.<span class='listener-colored-text-pink'>currentTarget</span> );</p><p class='code-p'><span class='listener-colored-text-pink'>    console</span>.<span class='listener-colored-text-green'>log</span>(\"event.currentTarget.id:\" + <span class='listener-colored-text-pink'>event</span>.<span class='listener-colored-text-pink'>currentTarget</span>.<span class='listener-colored-text-pink'>id</span> );</p><p class='code-p'>}</p></div>"
+    },
+    {
+        "index": 22,
+        "title": "",
+        "text": "<span class='spaced-lines'>סיימתם את הלומדה <span class='colored-text'>בהצלחה</span>! <br><br> עכשיו אתם מומחים באירועים ובמאזינים <br>ואתם יכולים ליצור תוצרים אינטרקטיביים במיוחד!</span>"
+    }
+]

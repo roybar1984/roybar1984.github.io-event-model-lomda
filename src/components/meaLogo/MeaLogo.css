@@ -1,0 +1,39 @@
+.cls-1 {
+    fill: #bc99ff;
+  }
+  .cls-2 {
+    fill: #80ffb3;
+  }
+  .cls-3 {
+    fill: #e879f9;
+  }
+  .cls-4 {
+    fill: #8be9fd;
+  }
+  .cls-5 {
+    fill: url(#linear-gradient);
+  }
+  .cls-6 {
+    fill: url(#linear-gradient-2);
+  }
+  .cls-7 {
+    fill: url(#linear-gradient-3);
+  }
+  .cls-8 {
+    fill: url(#linear-gradient-4);
+  }
+  .cls-9 {
+    fill: url(#linear-gradient-5);
+  }
+  
+  .logo {
+      width: 9vw;
+      height: 9vh;
+      position: absolute;
+      top: 2vh;
+      left: 3vw;
+  }
+
+  .dark-logo {
+    filter: brightness(50%);
+  }

@@ -1,0 +1,90 @@
+.nav {
+  display: inline;
+  margin: 8px;
+  height: fit-content;
+  padding: 2px;
+}
+
+.navbar-div {
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  flex-direction: column;
+  top: 1vh;
+  left: 2vw;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 6vh;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: space-around;
+  z-index: 1;
+  height: 100%;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-ul {
+  justify-content: space-between;
+  display: flex;
+  padding: 0vw;
+  margin: 1vh 0vw;
+}
+
+.nav-text {
+  font-size: calc(10pt + 0.5vw);
+}
+
+.nav-hr {
+  width: 100%;
+  height: 0vh;
+  margin: 0vh;
+}
+
+.current-link {
+  font-weight: 600;
+  height: 2vh;
+}
+.current-link::after {
+  content: "";
+    display: block;
+    width: 6vw;
+    height: 35%;
+    border-bottom: 3px solid rgb(255, 255, 255);
+}
+
+.current-first-link::after {
+  padding-bottom: 0.7vh;
+}
+
+.nav-p {
+  padding-bottom: 0vh;
+  margin: 0vh;
+  color: rgb(131, 129, 129);
+  cursor: context-menu;
+}
+
+.nav:hover .nav-drop {
+  display: block;
+}
+
+.link-drop-container {
+  width: 6vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.first-link {
+  margin-right: 0vw;
+  padding-right: 0vw;
+}
+.last-link {
+  margin-left: 0vw;
+  padding-left: 0vw;
+}

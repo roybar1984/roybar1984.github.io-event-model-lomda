@@ -1,0 +1,75 @@
+.cls-2-btn {
+  border: solid;
+  border-image: linear-gradient(
+    90deg,
+    rgba(92, 184, 209, 1) 0%,
+    rgba(223, 92, 255, 1) 52%,
+    rgba(255, 23, 68, 1) 100%
+  );
+  border-image-slice: 1;
+  text-align: center;
+  font-size: calc(17pt + 0.5vw);;
+  fill: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  transition:background-color 0.15s;
+}
+
+.text-btns {
+  width: 15vw;
+  height: 6vh;
+  font-size: calc(13pt + 0.5vw);
+  cursor: pointer;
+}
+
+.text-btns:hover {
+  border-image: linear-gradient(
+    90deg,
+    rgba(151, 255, 135, 1) 0%,
+    rgba(251, 210, 92, 1) 52%,
+    rgba(187, 55, 254, 1) 100%
+  );
+  border-image-slice: 1;
+}
+
+.text-btns:active {
+  border-image: linear-gradient(
+    90deg,
+    rgb(98, 200, 82) 0%,
+    rgb(211, 174, 62) 52%,
+    rgb(139, 27, 195) 100%
+    );
+  border-image-slice: 1;
+}
+
+.backClass {
+  border-image: linear-gradient(
+    90deg,
+    rgba(255, 23, 68, 1) 0%,
+    rgba(223, 92, 255, 1) 52%,
+    rgba(92, 184, 209, 1) 100%
+  );
+  border-image-slice: 1;
+}
+
+.backClass:hover {
+  border-image: linear-gradient(
+    90deg,
+    rgba(187, 55, 254, 1) 0%,
+    rgba(251, 210, 92, 1) 52%,
+    rgba(151, 255, 135, 1) 100%
+  );
+  border-image-slice: 1;
+}
+
+.backClass:active {
+  border-image: linear-gradient(
+    90deg,
+    rgb(139, 27, 195) 0%,
+    rgb(211, 174, 62) 52%,
+    rgb(98, 200, 82) 100%
+  );
+  border-image-slice: 1;
+}

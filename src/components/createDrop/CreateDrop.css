@@ -1,0 +1,29 @@
+.nav-submenu-item {
+  background-color: rgba(19, 14, 44, 0.699);
+  border: solid 0.2vw;
+  margin: 0.5vh;
+  padding: 0.2vw;
+  width: 9vw;
+  height: fit-content;
+  border-image: linear-gradient(
+    90deg,
+    rgba(92, 184, 209, 1) 0%,
+    rgba(223, 92, 255, 1) 52%,
+    rgba(255, 23, 68, 1) 100%
+  );
+  border-image-slice: 1;
+  text-align: center;
+  backdrop-filter: blur(7px);
+}
+
+.nav-drop {
+  display: none;
+  list-style-type: none;
+  position: relative;
+  z-index: 2;
+  padding: 1vh 0vw;
+}
+
+.nav-menu-item {
+  font-size: 1.2vw;
+}

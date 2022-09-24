@@ -1,0 +1,100 @@
+@font-face {
+  font-family: Signika;
+  src: url(../../fonts/Signika-Regular.ttf);
+}
+
+.add-listener-btn {
+  border: solid 0.24vh;
+  border-image: linear-gradient(
+    90deg,
+    rgba(92, 184, 209, 1) 0%,
+    rgba(223, 92, 255, 1) 52%,
+    rgba(255, 23, 68, 1) 100%
+  );
+  border-image-slice: 1;
+  text-align: center;
+  font-size: 1.5vw;
+  fill: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 0.7vh 1.5vw;
+  width: fit-content;
+  height: fit-content;
+}
+
+.add-listener-btn:hover {
+  border-image: linear-gradient(
+    90deg,
+    rgba(187, 55, 254, 1) 0%,
+    rgba(251, 210, 92, 1) 52%,
+    rgba(151, 255, 135, 1) 100%
+  );
+  border-image-slice: 1;
+}
+
+.add-listener-example {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.remove-listener-example {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2vw;
+}
+
+.rhombus-listener {
+  width: 15vw;
+  margin: 1vh;
+}
+
+.in-refresh {
+  fill: url(#linear-refresh-gradient);
+}
+
+.refresh-circle {
+  fill: none;
+  stroke-miterlimit: 10;
+  stroke-width: 1.3px;
+  stroke: url(#linear-refresh-gradient-2);
+}
+
+.refresh-btn {
+  width: 5vw;
+}
+
+.remove-listener-exampls-ball {
+  width: 11vw;
+  margin: 2vh;
+}
+
+.display-counter {
+  width: 3vw;
+  height: 7vh;
+  font-size: 5vh;
+  font-family: Signika;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.459);
+  border: white solid 0.4vh;
+  margin: 1vh;
+}
+
+.remove-refresh-btn {
+  width: 3.3vw;
+  position: absolute;
+  right: 6vw;
+  bottom: 17vh;
+}

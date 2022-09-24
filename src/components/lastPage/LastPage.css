@@ -1,0 +1,15 @@
+.last-page-btns-container {
+    width: 45vw;
+    /* position: static; */
+    margin-bottom: 32vh;
+}
+
+.last-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2vw;
+    width: 100vw;
+    height: 90vh;
+}

@@ -1,0 +1,102 @@
+.opening-text-container {
+  position: absolute;
+  right: 50vw;
+  top: 34vh;
+  transform: translateX(50%);
+  line-height: 2.5vh;
+}
+
+.opening-small-title {
+  /* font-size: calc(20pt + 0.5vw); */
+  font-size: 3vw;
+  margin: 0;
+  margin-bottom: 4vh;
+  font-weight: 400;
+}
+
+.opening-big-title {
+  font-size: 6vw;
+  margin: 0;
+  font-weight: 400;
+}
+
+.drag-path-with-balls-container {
+  align-content: space-around;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80vw;
+  height: 30vh;
+  position: absolute;
+  right: 50vw;
+  top: 65vh;
+  transform: translate(50%, -50%);
+  /* border: solid white; */
+}
+
+.drag-drop-balls {
+  width: 20vw;
+  height: 20vh;
+  /* border: solid blue; */
+}
+
+.drag-ball {
+  transition: opacity ease-in 0.3s;
+  /* transition: translate ease-in-out 0.2s; */
+}
+
+.drag-ball-cursor {
+  cursor: move;
+}
+
+.cls-1-drag-ball {
+  isolation: isolate;
+}
+.drag-ball-glow {
+  opacity: 0.75;
+  mix-blend-mode: screen;
+}
+.drag-ball-fill {
+  fill: url(#radial-gradient);
+}
+.drag-ball-text {
+  font-size: 18px;
+  fill: #fff;
+  font-family: SegoeUI-Bold, Segoe UI;
+  font-weight: 700;
+  user-select: none;
+}
+
+.drop-ball-text {
+  font-size: 18pt;
+}
+.cls-1-drop {
+  isolation: isolate;
+}
+.drop-glow {
+  opacity: 10;
+  mix-blend-mode: luminosity;
+}
+.drop-ring-circle {
+  fill: none;
+  stroke: #fff;
+  stroke-miterlimit: 10;
+  stroke-width: 2px;
+}
+
+.dashed-line {
+  width: 50%;
+  size: 10;
+  color: black;
+  border: none;
+  border-top: 0.5vh dashed;
+  border-image: linear-gradient(to left, #5cb8d1, #d689e9, #ff1744);
+  border-image-slice: 0.5;
+  width: 50%;
+}
+
+.dashed-line {
+  stroke: url(#linear-gradient-dashed);
+  stroke-width: 2;
+  width: 60%;
+}

@@ -1,0 +1,74 @@
+.code-font {
+  font-family: IBMPlexMono , "Segoe UI";
+  font-weight: 600;
+}
+
+.black-code-block-container {
+    width: fit-content;
+    min-width: 33vw;
+    min-height: 2vh;
+    padding: 0.7em;
+    background-color: black;
+    /* margin: auto; */
+    padding-left: 2em;
+    padding-right: 2em;
+    /* margin-top: 3vh;
+    margin-bottom: 3vh; */
+    direction: ltr;
+}
+
+.block-with-border {
+  border: solid white 0.04em;
+  border-radius: 0.4em;
+  margin: auto;
+  margin-top: 0vh;
+}
+
+.block-with-border-code {
+  width: 80%;
+}
+
+.js-and-html-add{
+  width: 40vw;
+}
+.js-and-html-remove{
+  width: 47vw;
+}
+
+.js-code-block,
+.html-code-block,
+.current-target-code-block{
+  border-radius: 0.7em;
+  padding-left: 1em;
+  height: fit-content;
+  text-align: justify;
+  font-size: 13px;
+  margin: 0.2vh 0vw;
+  overflow-x: auto;
+  overflow-y: hidden;
+  /* display: flex;
+  flex-direction: row;
+  justify-content: space-between; */
+}
+
+.current-target-code-block{
+  width: 42vw;
+  margin: 1vh;
+  padding: 1vh;
+}
+
+.add-margin-black-code{
+  margin: 2vh 0vw;
+}
+
+.code-type {
+  margin: 0vh;
+  text-align: end;
+  direction: ltr;
+  /* margin: 0vh;
+  text-align: end;
+  direction: ltr;
+  position: fixed;*/
+  color: rgba(255, 255, 255, 0.747);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; 
+}

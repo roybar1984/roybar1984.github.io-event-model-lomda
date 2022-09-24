@@ -1,0 +1,9 @@
+.mouse-event-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.show-btns {
+    display: "block";
+    opacity: "1"
+}

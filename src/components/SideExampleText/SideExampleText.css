@@ -1,0 +1,26 @@
+.title-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 48vw;
+  height: 35vh;
+  align-self: normal;
+  text-align: start;
+}
+
+.title-text-container-current-target {
+  width: 40vw;
+}
+
+.side-example-text-title {
+  margin-top: 0;
+  text-align: start;
+  width: 30vw;
+  padding-bottom: 0.5em;
+  padding-top: 0;
+}
+
+.side-example-text-title-current-target {
+  width: 36vw;
+}
