@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/roybar1984.github.io-event-model-lomda/static/css/main.42c36a51.chunk.css",
+    "main.js": "/roybar1984.github.io-event-model-lomda/static/js/main.9accbaf2.chunk.js",
+    "main.js.map": "/roybar1984.github.io-event-model-lomda/static/js/main.9accbaf2.chunk.js.map",
+    "runtime-main.js": "/roybar1984.github.io-event-model-lomda/static/js/runtime-main.48403662.js",
+    "runtime-main.js.map": "/roybar1984.github.io-event-model-lomda/static/js/runtime-main.48403662.js.map",
+    "static/js/2.32bd8f82.chunk.js": "/roybar1984.github.io-event-model-lomda/static/js/2.32bd8f82.chunk.js",
+    "static/js/2.32bd8f82.chunk.js.map": "/roybar1984.github.io-event-model-lomda/static/js/2.32bd8f82.chunk.js.map",
+    "static/js/3.dc65448c.chunk.js": "/roybar1984.github.io-event-model-lomda/static/js/3.dc65448c.chunk.js",
+    "static/js/3.dc65448c.chunk.js.map": "/roybar1984.github.io-event-model-lomda/static/js/3.dc65448c.chunk.js.map",
+    "index.html": "/roybar1984.github.io-event-model-lomda/index.html",
+    "static/css/main.42c36a51.chunk.css.map": "/roybar1984.github.io-event-model-lomda/static/css/main.42c36a51.chunk.css.map",
+    "static/js/2.32bd8f82.chunk.js.LICENSE.txt": "/roybar1984.github.io-event-model-lomda/static/js/2.32bd8f82.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/roybar1984.github.io-event-model-lomda/static/media/heart.fc2d4a23.svg",
+    "static/media/EventListenerExample.css": "/roybar1984.github.io-event-model-lomda/static/media/Signika-Regular.89dc325a.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.48403662.js",
+    "static/js/2.32bd8f82.chunk.js",
+    "static/css/main.42c36a51.chunk.css",
+    "static/js/main.9accbaf2.chunk.js"
+  ]
+}
